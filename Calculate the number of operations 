@@ -1,0 +1,16 @@
+print("Choose Operation: +,-,*,/")
+choose=input("Choose Operation: ")
+a=int(input("Number: "))
+b=int(input("Number: "))
+if choose == '+':
+    calcu = a+b
+elif choose == '-':
+    calcu = a-b
+elif choose == '*':
+    calcu = a*b
+elif choose == '/':
+    calcu = a/b
+else:
+    print("Try Again")
+    exit()
+print("The answer is: ", calcu)

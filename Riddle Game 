@@ -1,0 +1,106 @@
+print ("WHAT'S INSIDE MY BAG??")
+print ("RIDDLE GAME")
+print()
+print("="*59)
+name=input("Enter your name:")
+print ("WELCOME TO MY RIDDLE GAME LET'S GET STARTED?", name)
+print()
+print("="*59)
+score=0
+print (" ROUND 1, easy")
+print()
+print ("START")
+one = input ("1.It's long, uses to write and cannot be erase easily:",)
+onea = "ballpen"
+
+if one == onea :
+    print ("You're Correct!!") 
+    score=score+5
+else :
+    print ("You're Incorrect")
+print()
+two = input ("2.It's long, it is used in measuring objects or shapes:",)
+
+twob = "ruler"
+
+if two == twob :
+    print ("You're Correct!!")
+    score=score+5
+else :
+    print ("You're Incorrect")
+print()
+three = input ("3.Light object, use for writing and drawing and scratch:",)
+
+threec = "paper"
+if three==threec:
+    print ("You're Correct!!")
+    score=score+5
+else :
+    print ("You're Incorrect")
+
+print("="*59)    
+print ("ROUND 2, Moderate")
+print()
+print ("Let's Continue!!")
+print()
+four = input ("1.I'm tall when I'm young and I'm short when I'm old. What am I?:",)
+
+fourd = "candle"
+if four == fourd :
+    print ("You're Correct!!")
+    score=score+10
+else :
+    print ("You're Incorrect")
+print()    
+five = input ("2.Stiff is my spine and my body is pale, but I'm always ready to tell a tale. What am I?: ",)
+
+fivee = "book"
+
+if five == fivee : 
+    print ("You're Correct!!")
+    score=score+10   
+else :
+    print ("You're Incorrect")
+print()    
+six = input ("3.It has a head and a tail but has no limbs or body, but can travel around. What I am?:",)
+
+sixf = "coin"
+if six == sixf :
+    print ("You're Correct!!")
+    score=score+10
+else :
+    print ("You're Incorrect")
+print("="*59)
+
+print ("Your total score is:",score)
+if score > 0:
+    if score == 5:
+         print ("OPSS BETTER LUCK NEXTIME")
+    elif score == 10:
+        print ("TRY HARDER")
+    elif score == 15:
+        print ("PUT KORE EFFORT")
+    elif score == 20:
+        print ("YOU'RE DOING GOOD")
+    elif score == 25:
+        print ("KEEP UP THE GOOD WORK")
+    elif score == 30:
+        print ("YOU'RE ALMOST THERE")
+    elif score == 35:
+        print ("WELL DONE")
+    elif score == 40:
+        print ("EXCELLENT") 
+    else :
+        print ("YOU GOT IT PERFECT")
+print("="*59)
+print ("CONGRATULATIONS!!", name)
+print ("Well done answering all the questions!!")
+print (";>")
+#answers
+#ballpen
+#ruler
+#paper
+#answers 2
+#candle
+#book
+#coin
